@@ -150,7 +150,7 @@ body {
 nav {
     min-height: 80px;
     transition: .5s all ease !important;
-    background-color: var(--MainColor-1-2);
+    background-color: var(--MainColor-1-2) !important;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, .05);
     width: 100vw;
     position: fixed !important;
@@ -332,6 +332,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 0 0 0;
+    height: auto !important;
 
 }
 
