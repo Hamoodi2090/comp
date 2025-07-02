@@ -55,7 +55,7 @@ setTimeout(function () {
 let on = () => {
   document.body.classList.add('darkmode');
   document.body.style.backgroundColor = "#2a2a2a";
-  darkImg.style.background = "url('../images/image.jpg') center center /cover";
+  darkImg.style.background = "url('images/image.jpg') center center /cover";
   main.style.box = "0px 10px 30px rgba(255,255,255,0.2)";
   oli.style.background = "#3e3e3e2d";
   olii.style.background = "#3e3e3e2d";
