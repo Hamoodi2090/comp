@@ -39,10 +39,14 @@ window.onscroll = function () {
 }
 
 // loading
-window.onload=function () {
+// window.onload=function () {
+//     loading.style.display="none";
+//     document.body.style.overflow='auto';
+// }
+setTimeout(function () {
     loading.style.display="none";
     document.body.style.overflow='auto';
-}
+}, 1000)
 
 
 // dark mode

@@ -319,55 +319,6 @@ button {
     .spov-2 {
         margin: 0 !important;
     }
-        html {
-        overflow-x: hidden;
-    }
-
-    header {
-        text-align: center;
-        margin: 0;
-        padding: 96px 0 120px 0;
-        height: auto !important;
-    }
-
-    .header-left {
-        margin-bottom: 45px;
-    }
-
-    .header-left .spov-2 {
-        margin: 10px 0;
-    }
-
-    .sop-2 {
-        z-index: -9898989;
-    }
-
-    .spov-3 {
-        margin: auto;
-        margin-top: 25px;
-    }
-
-    .brox {
-        margin-top: 20px !important;
-        margin: auto;
-
-    }
-
-    .bx {
-        background: none !important;
-    }
-
-    .header-right img {
-        width: 392px !important;
-        height: 222.264px !important;
-
-        margin: auto !important;
-    }
-
-    #about {
-        display: none !important;
-        color: #3e3e3e2d;
-    }
 
 }
 
@@ -454,6 +405,59 @@ header {
 height: 222.264px !important;
 margin: auto;
 } */
+@media only screen and (max-width:599px) {
+    
+        html {
+        overflow-x: hidden;
+    }
+
+    header {
+        text-align: center;
+        margin: 0;
+        padding: 96px 0 120px 0;
+        height: auto !important;
+    }
+
+    .header-left {
+        margin-bottom: 45px;
+    }
+
+    .header-left .spov-2 {
+        margin: 10px 0;
+    }
+
+    .sop-2 {
+        z-index: -9898989;
+    }
+
+    .spov-3 {
+        margin: auto;
+        margin-top: 25px;
+    }
+
+    .brox {
+        margin-top: 20px !important;
+        margin: auto;
+
+    }
+
+    .bx {
+        background: none !important;
+    }
+
+    .header-right img {
+        width: 392px !important;
+        height: 222.264px !important;
+
+        margin: auto !important;
+    }
+
+    #about {
+        display: none !important;
+        color: #3e3e3e2d;
+    }
+
+}
 
 /* end header */
 /* start catog */
