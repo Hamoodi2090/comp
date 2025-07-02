@@ -6,10 +6,8 @@
     font-family: 'Poppins', sans-serif;
     outline: none !important;
 }
-
-.wow {
-    animation-duration: 1s !important;
-    animation-delay: 1s !important;
+.animate__animated{
+    animation-delay: 0.9s;
 }
 
 body {
